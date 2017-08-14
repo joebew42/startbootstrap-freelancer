@@ -23,14 +23,9 @@
     letter-spacing: 1px;
     li.nav-item {
       a.nav-link {
-        color: black;
         &:hover {
           color: $theme-success;
           outline: none;
-        }
-        &:active,
-        &:focus {
-          color: black;
         }
       }
     }
