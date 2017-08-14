@@ -41,5 +41,9 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "3.0.0"
+  },
+  "scripts": {
+    "build": "node node_modules/gulp/bin/gulp.js",
+    "dev": "node node_modules/gulp/bin/gulp.js dev"
   }
 }

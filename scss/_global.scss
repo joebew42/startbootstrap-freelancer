@@ -1,7 +1,13 @@
 // Global styling for this template
+html {
+    height: 100%;
+}
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 p {
@@ -26,7 +32,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -72,9 +78,9 @@ hr.star-primary:after {
 }
 
 section {
-  padding: 100px 0;
+  padding: 60px 0;
   h2 {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
   }
 }
