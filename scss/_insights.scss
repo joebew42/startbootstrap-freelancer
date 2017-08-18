@@ -1,0 +1,46 @@
+a.continue-to-insight {
+    padding: 5px;
+    display: block;
+    border: 1px solid $theme-success;
+}
+
+.insight {
+    h1 {
+        color: white;
+        font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 1.2em;
+        font-weight: 700;
+        display: block;
+        background: $theme-success;
+        border-bottom: 1px solid $theme-third;
+        padding: 8px;
+    }
+
+    p {
+        margin-top: 5pt;
+        font-size: 1em;
+        text-align: justify;
+        color: rgba(0,0,0,.8);
+    }
+
+    .banner {
+        background: $theme-success;
+        background-position: center;
+        background-size: cover;
+        height: 140px;
+        opacity: 0.9;
+    }
+
+    .radar {
+        background-image: url(../img/insights/radar.jpg);
+    }
+
+    .courses {
+        background-image: url(../img/insights/courses.jpg);
+    }
+
+    .conferences {
+        background-image: url(../img/insights/conferences.jpg);
+    }
+
+}
